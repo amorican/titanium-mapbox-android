@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+		<View id="buttonsRow" layout="horizontal">
+			<Button title="Hello World" onClick="helloWorldButtonTapped" />
+			<Button title="Hello USA" onClick="helloUSAButtonTapped" />
+			<Button title="Hello Broncos" onClick="helloBroncosButtonTapped" />
+			<Button title="IN" onClick="zoomInButtonTapped" />
+			<Button title="OUT" onClick="zoomOutButtonTapped" />
+			<Button title="Markers" onClick="markersButtonTapped" />
+			<Button title="Location" onClick="locationButtonTapped" />
+		</View>
+		<View id="mapContainer"></View>
+	</Window>
+</Alloy>
