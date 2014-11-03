@@ -58,7 +58,7 @@ Array of dictionaries with keys:
 # Current Roadblock
 The Mapbox Android SDK project is set up to build a `.aar` which contains some resources. I was not able to reference the `.aar` from the Titanium module project, so I built the Mapbox SDK as a `.jar`.
 From there everything looks fine, we can load the map, set different locations with different zoom levels, and add markers.
-Unfortunately the first sign of trouble is the user location not showing at all, and the log doesn’t show anything about it. Second, clicking on a marker (where you would expect the marker popup to show) causes the following crash, which happens while trying to create the popup from which layout is defined in tooltip.xml, a layout resource file.
+Unfortunately the first sign of trouble is the user location not showing at all, and the log doesn’t show anything about it. Second, clicking on a marker causes the following crash, which happens while trying to create the popup from tooltip.xml, a layout resource file.
 
 ```
 [ERROR] :  TiApplication: (main) [1484,41251] Sending event: exception on thread: main msg:android.view.InflateException: Binary XML file line #25: Error inflating class android.support.v7.internal.widget.ActionBarView; Titanium 3.4.0,2014/09/25 16:42,b54c467
