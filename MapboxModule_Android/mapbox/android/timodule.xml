@@ -7,6 +7,13 @@
 	<iphone>
 	</iphone>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	<dependency>
+	    <groupId>com.mapbox.mapboxsdk</groupId>
+	    <artifactId>mapbox-android-sdk</artifactId>
+	    <version>0.4.0</version>
+	    <type>apklib</type>
+	</dependency>
+lklkj
 	</android>
 	<mobileweb>
 	</mobileweb>
