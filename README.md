@@ -2,7 +2,11 @@
 
 Uses the [mbpages branch of the Mapbox Android SDK](https://github.com/mapbox/mapbox-android-sdk/tree/mb-pages).
 
-This is a work in progress, which uses the example map `examples.map-i87786ca`. For the current iteration, the goal is to expose some API’s from ti.map for setting the location, zoom, and markers.
+## Current State of Development
+This is a work in progress, 
+- Uses the example map `examples.map-i87786ca`. 
+- For the current iteration, the goal is to expose some API’s from ti.map for setting the location, zoom, and markers.
+- See the "Current Roadblock' section below, a click on a marker is causing a crash which seems to be due to a problem with loading the mapbox's tooltip.xml layout resource file, maybe this is a build issue that can be easily fixed, but everything I've tried so far has failed.
 
 ## Source & Test App
 The root of this repo contains the module source code and the test app respectively.
