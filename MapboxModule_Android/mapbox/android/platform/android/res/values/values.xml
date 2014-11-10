@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bleege/development/MapboxAndroidSDK/MapboxAndroidSDK/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="MapView"><attr format="string" name="mapid"/><attr format="string" name="centerLat"/><attr format="string" name="centerLng"/><attr format="string" name="zoomLevel"/><attr format="string" name="uiControls"/></declare-styleable>
+    <!-- From: file:/Users/bleege/development/MapboxAndroidSDK/MapboxAndroidSDK/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="toolTipAddress">Address</string>
+    <string name="toolTipDescription">Description</string>
+    <string name="toolTipTitle">Title</string>
+</resources>
