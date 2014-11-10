@@ -10,7 +10,7 @@ license: Specify your license
 copyright: Copyright (c) 2014 by Your Company
 # This line is required to include the library resources (https://github.com/appcelerator/titanium_mobile/pull/5611)
 # But it (indirectly?) causes a dexer crash when building the test app (java.lang.IllegalArgumentException: already added: Lcom/mapbox/mapboxsdk/R$attr;)
-# respackage: com.mapbox.mapboxsdk
+respackage: com.mapbox.mapboxsdk
 
 # these should not be edited
 name: mapbox
